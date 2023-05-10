@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and register page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="df">
+        <div class="left-side">
+            <div class="contianer">
+                <p class="sub-title">Welcome to</p>
+                <h1 class="title">Learner</h1>
+                <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa modi tempore quos?</p>
+            </div>
+            <div class="lr-switcher">
+                <button class="active L" id="login">Login</button> <br>
+                <button class="R" id="register">Register</button>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="form-logo">
+                <div class="logo-img">
+                    <img src="./assets/images/logo.jpg" alt="" class="learner-logo">
+                </div>
+            </div>
+            <div id="height" class="container-two media-container-two ">
+                <form id="login-form" class="login" action="">
+                    <div class="form-input">
+                        <input class="form-control" type="email" required="required" placeholder="E-mail Address">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="form-input">
+                        <input class="form-control" type="password" required="required" placeholder="password">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="login-btn">
+                        <button type="submit" class="btn-login">Log in</button>
+                        <div class="checkbox">
+                            <input class="check" type="checkbox" id="checkbox1" required="required">
+                            <label for="checkbox1">Keep me logged in</label>
+                        </div>
+                    </div>
+                </form>
+                <form id="regist-form" action="" class="register">
+                    <div class="form-input">
+                        <input class="form-control" type="text" required="required" placeholder="Full Name">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <div class="form-input">
+                        <input class="form-control" type="email" required="required" placeholder="E-mail Address">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="form-input">
+                        <input class="form-control" type="password" required="required" placeholder="password">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="login-btn media-block">
+                        <button type="submit" class="btn-login">Register</button>
+                        <div class="checkbox">
+                            <input  class="check-two" type="checkbox" id="checkbox2" required="required">
+                            <label class="register-service" for="checkbox2">I agree the terms of services</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
